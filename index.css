@@ -1,0 +1,95 @@
+
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: azure;
+} 
+menu{
+    background-color: rgba(255, 0, 0, 0.425);/**Definir a cor de fundo de um elemento(nesse caso, a do fundo da tela)**/
+    padding: 10px;/**Add espaço ao redor do conteúdo do menu**/
+    text-align: center;/**Alinhamento do texto**/
+    display: flex;/**Usa um layout flexível para alinhar os elementos**/
+    justify-content: center;/**Alinha os elementos horizontalmente**/
+    gap: 60px;/**Define a distância entre os elementos**/
+    height: 75px;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0%;
+    text-decoration: none;
+}
+menu:hover{
+    text-decoration: none;
+}
+.mn{
+    height: 380px;
+    width: 400px;
+    border-radius: 100px 0px 0px 100px;
+    margin: 5px;
+    margin-bottom: -10px;
+    padding: 5px; 
+}
+.mnn{
+    height: 380px;
+    width: 400px;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: -10px;
+    padding: 5px;
+
+
+}
+
+.bj{
+    height: 300px;
+    border-radius: 50px;
+}
+.c{
+    color: aqua;
+}
+
+#table{
+    padding-left: 1400px;
+}
+
+iframe{
+    border-radius: 50px;
+}
+
+.c{
+    width: 60%;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.back{
+    background-color: red;
+    border-radius: 50px;
+    padding: 10px 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#seta{
+    color: black;
+    background-color: black;
+    border-radius: 50px;
+}
+#setas{
+    background-color: black;
+    color: black;
+    border-radius: 50px;
+}
+.carrosselCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.bd{
+    border-radius: 100%;
+}
+.avaliacao{
+    color: gold;
+
+    
+}
