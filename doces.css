@@ -1,0 +1,103 @@
+body{
+    background-color: rgba(255, 255, 0, 0.486)
+}
+a{
+    color: black;
+}
+menu{
+    background-color: rgba(0, 128, 0, 0.425);/**Definir a cor de fundo de um elemento(nesse caso, a do fundo da tela)**/
+    padding: 10px;/**Add espaço ao redor do conteúdo do menu**/
+    text-align: center;/**Alinhamento do texto**/
+    display: flex;/**Usa um layout flexível para alinhar os elementos**/
+    justify-content: center;/**Alinha os elementos horizontalmente**/
+    gap: 60px;/**Define a distância entre os elementos**/
+    height: 75px;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 50%;
+    margin-left: 25%;
+    align-items: center;
+    margin-top: -50px;
+}
+/**estilizando o elemento pela classe com o caracter "." antes do nome da classe**/
+.menu-itens{
+    color: white;/**Define a cor do texto**/
+    text-decoration: none;/**Retira o traço de link da palavra**/
+    padding: 15px 25px;
+    font-size: 18px;/**Define o tamanho do texto**/
+    display: inline-block;/**Deixa o item como o bloco em uma linha**/
+    z-index: 1;
+    width:20%;
+    height: 100%;
+}
+/**Hover é um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento. Abaixo aplicamos um evento de mouse no nosso menu**/
+.menu-itens:hover{ /*Quando colocarmos o mouse sobre os elementos iremos:*/
+
+    background-color: #d0dbf8;/*Trocar a cor de fundo*/
+    color: black;/*A cor do texto*/
+    width: 200px;/*Ajustaremos a largura do elemento*/
+    padding: 15px 25px;/*A distância do conteúdo*/
+    border-radius: 8px;/*Arredondar as bordas de um elemento*/
+    text-decoration: none;
+}
+
+.caixa1{
+    padding: 15px;
+    background-color: aliceblue;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 50px;
+}
+.carousel-inner{
+    position: relative; /*Ao mover o elemento, ele não interfere nos outros elementos ao seu redor*/
+}
+.carousel-control-prev, .carousel-control-next{
+    position: absolute;/*Posiciona um elemento em relação ao elemento pai mais próx.*/
+    top: 50%;/*Posiciona a 50% da altura do elemento filho*/
+    transform: translateY(-50%);/*Move o elemento ao longo do eixo vertical y*/
+    width: 5%;/*Ajuste da largura das setas*/
+    z-index: 1;/*Garante que fiquem sobre a imagem*/
+    background-color: rgba(0, 0, 0, 0.5);/*Um fundo semitransparente*/
+}
+img{
+    border-radius: 50px;
+}
+video{
+    border-radius:50px;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
+table{
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+ }
+ thead{
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    height: 15px;
+    border: white solid;
+ }
+ th{
+    width: 160px;
+   text-align: center;
+    align-items: center;
+    border: white solid;
+ }
+ tbody{
+    background-color: rgba(0, 128, 0, 0.534);
+ }
+ td{
+    text-align: center;
+    border: 1px solid;
+    border-color: white;
+ }
