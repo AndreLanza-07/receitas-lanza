@@ -15,6 +15,9 @@
 
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="main.js" type="text/JavaScript" defer></script>
+
 </head>
 
 <body>
@@ -276,6 +279,7 @@
                     <th>ingredientes</th>
                     <th>Preço dos ingretientes</th>
                     <th>link da compra</th>
+                    <th>Quantidade</th>
                     <th>total</th>
                 </tr>
             </thead>
@@ -284,65 +288,99 @@
 
                 <tr>
                     <td>trigo</td>
-                    <td>R$7,29</td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="num"></td>
                     <td><a class="c" href="https://www.superpaguemenos.com.br/farinha-de-trigo-renata-1kg/p">compra</a>
                     </td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="int"></td>
+                    <td class="tot"></td>
                 </tr>
 
                 <tr>
                     <td>amido de milho</td>
-                    <td>R$6,49</td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="num"></td>
                     <td><a class="c" href="https://www.superpaguemenos.com.br/amido-de-milho-maizena-200g/p">compra</a>
                     </td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="int"></td>
+                    <td class="tot"></td>
                 </tr>
 
                 <tr>
                     <td>leite</td>
-                    <td>R$4,79</td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="num"></td>
                     <td><a class="c"
                             href="https://www.superpaguemenos.com.br/leite-longa-vida-integral-italac-1l/p">compra</a>
                     </td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="int"></td>
+                    <td class="tot"></td>
                 </tr>
 
                 <tr>
                     <td>ovos</td>
-                    <td>R$14,99</td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="num"></td>
                     <td><a class="c"
                             href="https://www.superpaguemenos.com.br/ovos-brancos-extra-satoshi-com-20-unidades/p">compra</a>
                     </td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="int"></td>
+                    <td class="tot"></td>
                 </tr>
+
 
                 <tr>
                     <td>molho de tomate</td>
-                    <td>R$1,75</td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="num"></td>
                     <td><a class="c"
                             href="https://www.superpaguemenos.com.br/molho-de-tomate-fugini-tradicional-340g/p">compra</a>
                     </td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="int"></td>
+                    <td class="tot"></td>
                 </tr>
 
                 <tr>
+
                     <td>mussarela</td>
-                    <td>R$16,49</td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="num"></td>
                     <td><a class="c"
                             href="https://www.superpaguemenos.com.br/queijo-mucarela-tradicional-pedaco-500g/p">compra</a>
                     </td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="int"></td>
+                    <td class="tot"></td>
+
                 </tr>
 
                 <tr>
+
                     <td>orégano</td>
-                    <td>R$2,45</td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="num"></td>
                     <td><a class="c" href="https://www.superpaguemenos.com.br/oregano-kaiuangel-10g/p">compra</a></td>
+                    <td><input type="number" placeholder="Quantidade"
+                        class="int"></td>
+                    <td class="tot"></td>
                 </tr>
+
 
                 <tr>
-                    <td>Total</td>
-                    <td></td>
-                    <td></td>
-                    <td>R$54,25</td>
+                    <td colspan="4">Total</td>
+                    <td id="total"></td>
                 </tr>
 
-            </tbody>
+           
         </table>
+        <button onclick="calcular()">
+            Calcular
+        </button>
 </body>
 
 </html>
